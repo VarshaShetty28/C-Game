@@ -5,7 +5,7 @@ int main()
 {
     int Number,guess,nGuesses=1;
     srand(time(0));
-    Number = rand()%100;
+    Number = rand()%100+1;
 
      do{
         
